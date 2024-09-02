@@ -1,0 +1,18 @@
+.container-header {
+  background-color: #313131;
+  padding: 15px 40px;
+
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+  .logo {
+    width: 55px;
+  }
+
+  .title-header {
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+  }
+}
