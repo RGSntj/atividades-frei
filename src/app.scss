@@ -1,3 +1,5 @@
+@import "_colors.scss";
+
 .sessao-atividades {
   .atividades-titulo {
     font-size: 30px;
@@ -7,5 +9,10 @@
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
+
+    @media (max-width: 850px) {
+      justify-content: center;
+    }
   }
 }
